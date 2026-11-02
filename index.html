@@ -7,132 +7,265 @@
 <meta name="description" content="Shravya Nahar — Product Manager, MBA candidate at Santa Clara University. Portfolio of product, growth, and design work.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Prata&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,300..700&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-trend" viewBox="0 0 24 24"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.3h6c0-1 .4-1.8 1-2.3A7 7 0 0 0 12 2z"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="M3 8l9 5 9-5"/><path d="M12 13v8"/></symbol>
+  </defs>
+</svg>
+
+<!-- TOP NAV -->
+<header class="topnav">
+  <nav class="topnav-pill" aria-label="Sections">
+    <a href="#home" data-nav="home" data-label="Home" aria-label="Home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg></a>
+    <a href="#about" data-nav="about" data-label="About" aria-label="About"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg></a>
+    <a href="#experience" data-nav="experience" data-label="Experience" aria-label="Experience"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/><path d="M3 13h18"/></svg></a>
+    <a href="#projects" data-nav="projects" data-label="Projects" aria-label="Projects"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2v7.31L4 20a1 1 0 0 0 .9 1.5h14.2a1 1 0 0 0 .9-1.5L14 9.31V2"/><path d="M8.5 2h7"/></svg></a>
+    <a href="#education" data-nav="education" data-label="Education" aria-label="Education"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/><path d="M22 10v6"/></svg></a>
+    <a href="#skills" data-nav="skills" data-label="Skills" aria-label="Skills"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></svg></a>
+    <a href="#beyond" data-nav="beyond" data-label="Beyond" aria-label="Beyond"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg></a>
+    <a href="#lens" data-nav="lens" data-label="Lens" aria-label="Lens"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13.5" r="3.5"/></svg></a>
+    <a href="#contact" data-nav="contact" data-label="Contact" aria-label="Contact"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+  </nav>
+  <a class="topnav-cta" href="assets/Shravya_Nahar_Resume.pdf" target="_blank" rel="noopener noreferrer"><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h4"/></svg></span><span class="t">View Resume</span></a>
+</header>
+
+<!-- SIDE RAIL: follows the page as you scroll -->
+<nav class="rail" aria-label="Page position">
+  <a href="#home" data-nav="home" aria-label="Home"><span class="rail-label">Home</span></a>
+  <a href="#about" data-nav="about" aria-label="About"><span class="rail-label">About</span></a>
+  <a href="#experience" data-nav="experience" aria-label="Experience"><span class="rail-label">Experience</span></a>
+  <a href="#projects" data-nav="projects" aria-label="Projects"><span class="rail-label">Projects</span></a>
+  <a href="#education" data-nav="education" aria-label="Education"><span class="rail-label">Education</span></a>
+  <a href="#skills" data-nav="skills" aria-label="Skills"><span class="rail-label">Skills</span></a>
+  <a href="#beyond" data-nav="beyond" aria-label="Beyond"><span class="rail-label">Beyond</span></a>
+  <a href="#lens" data-nav="lens" aria-label="Lens"><span class="rail-label">Lens</span></a>
+  <a href="#contact" data-nav="contact" aria-label="Contact"><span class="rail-label">Contact</span></a>
+</nav>
+
 
 <!-- HERO -->
-<section class="hero">
-  <div class="scrim"></div>
-  <div class="hero-content">
-    <div class="headline"><span class="hero-name">Shravya Nahar</span><br>A <em>product manager</em> in the &#64257;nal year of<br>her <em>MBA</em> from Santa Clara University.</div>
-    <div class="subline-row"><div class="subline">Explore my work across product, growth and design.</div></div>
+<section class="hero" id="home">
+  <span class="corner tl">Product Manager</span>
+  <span class="corner tr">MBA &rsquo;27</span>
+  <span class="corner bl">San Francisco, CA</span>
+  <a class="corner br" href="#contact">Contact</a>
+  <div class="hero-stage">
+    <figure class="hero-photo">
+      <img src="images/shravya-portrait-bw.jpg" alt="Portrait of Shravya Nahar smiling, in a red cardigan">
+      <figcaption>Hello from Santa Clara</figcaption>
+    </figure>
+    <h1 class="signature">Shravya Nahar</h1>
   </div>
-  <a class="photo-credit" href="https://www.instagram.com/heath_wae/?hl=en" target="_blank" rel="noopener noreferrer">Painting: @heath_wae</a>
+  <div class="hero-copy">
+    <p class="hero-line">A <em>product manager</em> who&rsquo;s always asking questions,<br>now &#64257;nishing an <em>MBA</em> at Santa Clara.</p>
+    <p class="hero-sub">Have a look around. I brought receipts.</p>
+  </div>
 </section>
 
 <!-- ABOUT -->
-<section class="about">
-  <div class="eyebrow">About</div>
+<section class="about" id="about">
+  <div class="eyebrow">Where do the questions come from?</div>
   <hr class="rule">
-  <p>I started in bioengineering — medical devices, disposables, validation — and kept gravitating to the questions upstream of the drawing: who is this for, what will it cost, and why now. That pull took me into product management, and now into an MBA at Santa Clara University's Leavey School of Business.</p>
-  <p>I'm optimizing for roles where the business case and the mission point the same direction — sustainability, medicine, hardware that has to actually work. Almost a decade of launching physical products has made me stubborn about customer evidence and comfortable with messy trade-offs.</p>
-  <p>Raised in Chennai, seasoned in the UK, now building in the Bay Area — a useful habit of assuming the customer doesn't live where I do.</p>
+  <p><strong>I started in bioengineering</strong> — medical devices, disposables, validation — and kept gravitating to the questions upstream of the drawing: who is this for, what will it cost, and why now. That pull took me into product management, and now into an MBA at Santa Clara University's Leavey School of Business.</p>
+  <p><strong>I&rsquo;m optimizing for roles</strong> where the business case and the mission point the same direction — sustainability, medicine, hardware that has to actually work. Almost a decade of launching physical products has made me stubborn about customer evidence and comfortable with messy trade-offs.</p>
+  <p><strong>Raised in Chennai, seasoned in the UK,</strong> now building in the Bay Area — a useful habit of assuming the customer doesn't live where I do.</p>
   <p class="closer">Curious, analytical and thoughtfully optimistic.</p>
 </section>
 
+<!-- EXPERIENCE -->
+<section class="experience" id="experience">
+  <div class="eyebrow">What did we build, and did it work?</div>
+  <hr class="rule">
+  <div class="filter" role="group" aria-label="Filter experience">
+    <button class="fpill" type="button" data-job-filter="all" aria-pressed="true">Show all</button>
+    <button class="fpill" type="button" data-job-filter="donaldson" aria-pressed="false">Donaldson</button>
+    <button class="fpill" type="button" data-job-filter="waterscience" aria-pressed="false">WaterScience</button>
+    <button class="fpill" type="button" data-job-filter="excelligence" aria-pressed="false">Excelligence</button>
+  </div>
+  <article class="job" data-job="donaldson">
+    <h3 class="job-head"><a href="work/donaldson.html">Donaldson Filtration</a></h3>
+    <div class="job-top">
+      <div class="job-visual">
+        <div class="job-video">
+          <a class="video-facade" style="--video-img: url(../images/donaldson-demo.jpg)" href="https://youtu.be/Z4GzTUq6Cwg?t=8582" target="_blank" rel="noopener noreferrer" aria-label="Watch the live demo on YouTube (opens in a new tab)">
+            <span class="video-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </a>
+          <p class="video-cap"><strong>Live demo of the product we built, PrintProHT</strong>Plays on YouTube, starting at the demo.</p>
+        </div>
+        <div class="job-visual-text">
+          <h3>Product Manager</h3>
+          <div class="job-visual-foot"><span>Donaldson Filtration GB</span><span>Poole, UK &middot; May 2022 &ndash; Jan 2024</span></div>
+        </div>
+      </div>
+      <div class="job-summary">
+        <div class="job-claim-box"><p class="job-claim">I launched a $1.3M B2B product pipeline, grew the portfolio 26%, and helped safeguard $8M in US revenue.</p></div>
+        <div class="job-detail">
+          <p class="job-role">Role: Product Manager</p>
+          <p class="job-desc">B2B products aimed at high-growth additive manufacturing sectors.</p>
+          <a class="job-link" href="work/donaldson.html"><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>Read the full story</a>
+        </div>
+      </div>
+    </div>
+    <div class="job-cards" style="--n:4">
+        <div class="jcard"><svg class="jicon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-trend"/></svg><p class="stat">+26%</p><p class="stat-label">portfolio growth from a $1.3M B2B pipeline, idea to delivery</p></div>
+        <div class="jcard"><svg class="jicon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-route"/></svg><p class="stat">&#10003;</p><p class="stat-label">multi-year roadmap approved by executives</p></div>
+        <div class="jcard"><svg class="jicon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-target"/></svg><p class="stat">&minus;35%</p><p class="stat-label">manufacturing cost, by cutting feature bloat</p></div>
+        <div class="jcard"><svg class="jicon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-users"/></svg><p class="stat">$8M</p><p class="stat-label">US revenue safeguarded</p></div>
+    </div>
+  </article>
+  <article class="job" data-job="waterscience">
+    <h3 class="job-head"><a href="work/waterscience.html">WaterScience</a></h3>
+    <div class="job-top">
+      <div class="job-visual">
+        <div class="job-video">
+          <a class="job-shot" style="--shot-img: url(../images/ws-blog.jpg)" href="https://www.waterscience.in/blogs/water-awareness" target="_blank" rel="noopener noreferrer" aria-label="Open the WaterWise blog (opens in a new tab)"></a>
+          <p class="video-cap"><strong>The WaterWise blog</strong>Started the SEO initiative at WaterScience.</p>
+        </div>
+        <div class="job-visual-text">
+          <h3>Marketing Manager</h3>
+          <div class="job-visual-foot"><span>WaterScience &ndash; Aquagenics R&amp;D India</span><span>Bangalore, India &middot; Apr 2021 &ndash; Mar 2022</span></div>
+        </div>
+      </div>
+      <div class="job-summary">
+        <div class="job-claim-box"><p class="job-claim">I ran 15 campaigns end to end, lifting conversion 20% and doubling ROAS.</p></div>
+        <div class="job-detail">
+          <p class="job-role">Role: Marketing Manager</p>
+          <p class="job-desc">A two-person growth team, me and the CFO, at a startup, so I owned most of it end to end: ads, website, blog, Amazon, content and customer research.</p>
+          <a class="job-link" href="work/waterscience.html"><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>Read the full story</a>
+        </div>
+      </div>
+    </div>
+    <div class="job-cards" style="--n:3">
+        <div class="jcard"><svg class="jicon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chart"/></svg><p class="stat">+20%</p><p class="stat-label">conversion across 15 campaigns</p></div>
+        <div class="jcard"><svg class="jicon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-trend"/></svg><p class="stat">2&times;</p><p class="stat-label">return on ad spend (ROAS)</p></div>
+        <div class="jcard"><svg class="jicon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bulb"/></svg><p class="stat">CEO + CMO</p><p class="stat-label">aligned behind my data-backed business cases</p></div>
+    </div>
+  </article>
+  <article class="job" data-job="excelligence">
+    <h3 class="job-head"><a href="work/excelligence.html">Excelligence</a></h3>
+    <div class="job-top">
+      <div class="job-visual">
+        <div class="job-video">
+          <a class="job-shot" style="--shot-img: url(../images/excelligence.jpg); aspect-ratio: 1400 / 1052" href="https://www.discountschoolsupply.com/shop/school/excellerations-play-learn-supplies" target="_blank" rel="noopener noreferrer" aria-label="Shop the products on Discount School Supply (opens in a new tab)"></a>
+          <p class="video-cap"><strong>Shop the products</strong>Excellerations learning supplies on Discount School Supply.</p>
+        </div>
+        <div class="job-visual-text">
+          <h3>Associate Product Developer</h3>
+          <div class="job-visual-foot"><span>Excelligence Learning Corporation</span><span>Monterey, CA &middot; Oct 2019 &ndash; May 2020</span></div>
+        </div>
+      </div>
+      <div class="job-summary">
+        <div class="job-claim-box"><p class="job-claim">I took a 40+ product kids&rsquo; line from concept to launch, on time and to safety spec.</p></div>
+        <div class="job-detail">
+          <p class="job-role">Role: Associate Product Developer</p>
+          <p class="job-desc">Children&rsquo;s products, built with manufacturing partners in China.</p>
+          <a class="job-link" href="work/excelligence.html"><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>Read the full story</a>
+        </div>
+      </div>
+    </div>
+    <div class="job-cards" style="--n:3">
+        <div class="jcard"><svg class="jicon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bulb"/></svg><p class="stat">40+</p><p class="stat-label">SKUs in a new kids&rsquo; line, concept to launch</p></div>
+        <div class="jcard"><svg class="jicon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-box"/></svg><p class="stat">&#10003;</p><p class="stat-label">all delivered on time, to ASTM F963 safety spec</p></div>
+        <div class="jcard"><svg class="jicon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-users"/></svg><p class="stat">&#10003;</p><p class="stat-label">gross margin protected, working daily with China vendors</p></div>
+    </div>
+  </article>
+</section>
+
 <!-- PROJECTS -->
-<section class="projects">
-  <div class="eyebrow">Projects</div>
+<section class="projects" id="projects">
+  <div class="eyebrow">What did I find when I dug in?</div>
   <hr class="rule">
   <div class="list">
-    <a class="row" href="#">
+    <a class="row" href="work/gtm-reagents.html">
       <span class="row-main">
-        <span class="row-title">2026 World Cup Analytics</span>
-        <span class="row-blurb">A predictive model for tournament outcomes, built to explore how data can shape fan engagement strategy.</span>
+        <span class="row-title">Go-to-Market Strategy for a Life-Sciences Reagents Manufacturer</span>
+        <span class="row-blurb">MBA practicum, Spring 2026. With a team of six, built a three-phase plan for a US reagents maker to enter Europe. I led the market analysis (103 target accounts across seven countries), competitor benchmarking against 14 rivals, and pricing intelligence, and owned the distributor and local-manufacturing phases. We found EU distributors marked up one product by about 270%, and that consolidated pallet shipping could cut per-unit freight by roughly 90%.</span>
       </span>
-      <span class="row-tag">Analytics</span>
+      <span class="row-tag">Go-to-Market</span>
     </a>
-    <a class="row" href="#">
+    <a class="row" href="work/capeltic.html">
       <span class="row-main">
-        <span class="row-title">IPO Club</span>
-        <span class="row-blurb">Evaluated go-public readiness for a portfolio of late-stage startups, weighing market timing against fundamentals.</span>
+        <span class="row-title">Capeltic Go-to-Market Strategy</span>
+        <span class="row-blurb">Marketing course, Fall 2025. With a team of five, built a go-to-market plan to bring an Indigenous-owned coffee cooperative into Jesuit universities and parishes. I owned three parts: the five key marketing challenges, the three buyer segments (campus food-service directors, student clubs, faculty and staff), and the packaging and menu story.</span>
       </span>
-      <span class="row-tag">Strategy</span>
+      <span class="row-tag">Go-to-Market</span>
     </a>
-    <a class="row" href="#">
+    <a class="row" href="work/gtm-asia.html">
       <span class="row-main">
         <span class="row-title">GTM Asia Simulation</span>
-        <span class="row-blurb">A live market-entry simulation across three Asian markets, testing pricing and channel strategy under competition.</span>
+        <span class="row-blurb">Summer 2026. Seven-year market-entry simulation for a consumer-health brand expanding across Asia. Our team of three led the three competing teams on cumulative contribution ($924M), finishing with 17.8% market share and a brand equity score of 77. Using AI tools, I built the weekly dashboard that turned 18 data sheets into results and next-step recommendations.</span>
       </span>
       <span class="row-tag">Simulation</span>
     </a>
-    <a class="row" href="#">
+    <a class="row" href="work/admetric.html">
       <span class="row-main">
         <span class="row-title">Can AdMetric Ethically Increase Their Profit?</span>
-        <span class="row-blurb">An applied ethics case on ad-tech monetization — where the line sits between growth and user trust.</span>
+        <span class="row-blurb">Ethics for Managers, Fall 2025. With a team of six, applied an ethics framework to an ad-tech case where nudges lifted conversion from 2% to 3.5% but nearly doubled 90-day churn. I built the algorithmic section: using AI tools, charted how conversion, churn and returns move against LTV/CAC, then set a numeric threshold for when persuasion becomes manipulation and a tolerance band that switches a feature off once it crosses set limits.</span>
       </span>
       <span class="row-tag">Case Study</span>
     </a>
-    <a class="row" href="#">
+    <a class="row" href="work/world-cup.html">
       <span class="row-main">
-        <span class="row-title">Capeltic Go-to-Market Strategy</span>
-        <span class="row-blurb">A full GTM plan for a hardware startup entering a crowded category, from positioning through launch sequencing.</span>
+        <span class="row-title">Predicting the 2026 World Cup</span>
+        <span class="row-blurb">Ranked national teams to predict the 2026 World Cup winner from a pre-tournament dataset. The model's ranking matched teams' pre-tournament points exactly, a useful reminder to test any model against the simple baseline before trusting it.</span>
       </span>
-      <span class="row-tag">Strategy</span>
-    </a>
-    <a class="row" href="#">
-      <span class="row-main">
-        <span class="row-title">Mastercard Business Case</span>
-        <span class="row-blurb">A competitive analysis and growth recommendation for a payments product facing new fintech entrants.</span>
-      </span>
-      <span class="row-tag">Case Study</span>
+      <span class="row-tag">Analytics</span>
     </a>
   </div>
 </section>
 
 <!-- EDUCATION -->
-<section class="education">
-  <div class="eyebrow">Education</div>
+<section class="education" id="education">
+  <div class="eyebrow">What have I learned so far?</div>
   <hr class="rule">
-  <div class="edu-row"><strong>Master of Business Administration (M.B.A.)</strong><span class="edu-years">2025–2027</span><div class="edu-sub">Santa Clara University</div></div>
-  <div class="edu-row"><strong>Bioengineering, med devices</strong><span class="edu-years">2015–2019</span><div class="edu-sub">Northeastern University</div></div>
-</section>
-
-<!-- EXPERIENCE -->
-<section class="experience">
-  <div class="eyebrow">Experience</div>
-  <hr class="rule">
-  <div class="exp-row"><div class="exp-left"><strong>Donaldson Filtration GB</strong><span class="exp-role">Product Manager</span></div><span class="exp-years">2021–2023</span></div>
-  <div class="exp-row"><div class="exp-left"><strong>Waterscience</strong><span class="exp-role">Product Manager</span></div><span class="exp-years">2020–2021</span></div>
-  <div class="exp-row"><div class="exp-left"><strong>Excelligence</strong><span class="exp-role">Product Manager</span></div><span class="exp-years">2019–2020</span></div>
-  <div class="exp-row"><div class="exp-left"><strong>Nextstage Medical</strong><span class="exp-role">Disposables Engineer</span></div><span class="exp-years">2017</span></div>
-  <div class="exp-row"><div class="exp-left"><strong>Abiomed</strong><span class="exp-role">Product Manager</span></div><span class="exp-years">2017</span></div>
+  <div class="edu-row"><strong>Master of Business Administration (M.B.A.)</strong><span class="edu-years">2025–2027</span><div class="edu-sub">Santa Clara University</div><div class="edu-sub edu-detail">Dean's List: Summer 2026 &amp; Winter 2026</div><div class="edu-sub edu-detail">VP of Outreach, Graduate Women in Business Club</div></div>
+  <div class="edu-row"><strong>Bioengineering (B.S), conc. Medical Devices</strong><span class="edu-years">2015–2019</span><div class="edu-sub">Northeastern University</div></div>
 </section>
 
 <!-- SKILLS -->
-<section class="skills">
-  <div class="eyebrow">Skills</div>
+<section class="skills" id="skills">
+  <div class="eyebrow">What do I use to find the answer?</div>
   <hr class="rule">
   <div class="skills-grid">
     <div class="skill-col">
-      <h3>Technical &amp; Frameworks</h3>
+      <h3>Technical &amp; Data</h3>
       <div class="pill-row">
-        <span class="pill">Claude Code</span><span class="pill">NotebookLM</span><span class="pill">ChatGPT</span>
-        <span class="pill">Python</span><span class="pill">MATLAB</span><span class="pill">Arduino (C++)</span>
+        <span class="pill">Python (Pandas, NumPy)</span><span class="pill">MATLAB</span><span class="pill">Arduino (C++)</span>
+        <span class="pill">Power BI</span><span class="pill">Tableau</span><span class="pill">Excel</span>
+        <span class="pill">Google Sheets</span><span class="pill">Jira</span>
       </div>
     </div>
     <div class="skill-col">
       <h3>Product Management &amp; Discovery</h3>
       <div class="pill-row">
-        <span class="pill">PRDs</span><span class="pill">Roadmapping</span><span class="pill">Feature scoping</span>
-        <span class="pill">Risk &amp; competitive analysis</span><span class="pill">UX / user research</span><span class="pill">Behavioral testing</span>
+        <span class="pill">Product strategy</span><span class="pill">PRDs</span><span class="pill">Roadmapping</span>
+        <span class="pill">Feature scoping &amp; prioritization</span><span class="pill">User research</span><span class="pill">Journey mapping</span>
+        <span class="pill">Behavioral testing</span><span class="pill">Product validation</span><span class="pill">Competitive analysis</span>
       </div>
     </div>
     <div class="skill-col">
-      <h3>Tools &amp; Software</h3>
+      <h3>AI Tools</h3>
       <div class="pill-row">
-        <span class="pill">Jira</span><span class="pill">Power BI</span><span class="pill">Tableau</span>
-        <span class="pill">Excel</span><span class="pill">Canva</span><span class="pill">PowerPoint</span>
+        <span class="pill">Claude Code</span><span class="pill">ChatGPT / Codex</span><span class="pill">NotebookLM</span>
+        <span class="pill">Lovable</span><span class="pill">Gemini</span><span class="pill">Perplexity</span>
       </div>
     </div>
   </div>
 </section>
 
 <!-- BEYOND PRODUCT -->
-<section class="beyond">
-  <div class="eyebrow">Beyond Product</div>
+<section class="beyond" id="beyond">
+  <div class="eyebrow">What do I do when I&rsquo;m off the clock?</div>
   <hr class="rule">
   <blockquote>Outside of product, I'm drawn to experiences that combine creativity, curiosity, and craftsmanship. I enjoy traveling, scuba diving, pottery, and sewing, each of which gives me a different way to explore how people, cultures, materials, and ideas come together. I'm also deeply interested in sustainability and how thoughtful design can create more responsible products and experiences.</blockquote>
   <div>
@@ -141,10 +274,9 @@
 </section>
 
 <!-- A DIFFERENT LENS -->
-<section class="lens">
-  <div class="eyebrow">A Different Lens</div>
+<section class="lens" id="lens">
+  <div class="eyebrow">Wanna see the world through my eyes?</div>
   <hr class="rule">
-  <p class="lens-sub">A few frames from places that shaped how I see</p>
   <div class="filmstrip-outer">
     <div class="sprockets-row" id="sprockets-top"></div>
     <div class="filmstrip-scroll" id="strip">
@@ -164,8 +296,8 @@
 </section>
 
 <!-- CONTACT -->
-<section class="contact">
-  <div class="eyebrow">Contact</div>
+<section class="contact" id="contact">
+  <div class="eyebrow">Got a question for me?</div>
   <hr class="rule">
   <h2>Let's talk</h2>
   <p><a href="mailto:shravya.nahar@gmail.com">shravya.nahar@gmail.com</a> &nbsp;·&nbsp; San Francisco, CA</p>
