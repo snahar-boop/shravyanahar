@@ -507,3 +507,7 @@ img, video { max-width: 100%; }
 .job-visual-text { padding: 0; }
 .job-meta { margin: 0; font-size: 13px; letter-spacing: 0.02em; color: var(--cream); opacity: 0.9; }
 .job-visual { gap: 10px; }
+
+/* job summary inside the white claim box */
+.job-claim-box { flex-direction: column; align-items: flex-start; justify-content: center; gap: 14px; }
+.job-blurb { margin: 0; font-size: 14px; line-height: 1.55; color: var(--ink); opacity: .85; }
