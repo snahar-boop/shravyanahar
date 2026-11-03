@@ -618,3 +618,16 @@ img, video { max-width: 100%; }
 .hero-body { margin-top: 12px !important; font-size: clamp(13.5px, 1.2vw, 15px); line-height: 1.55; color: var(--text); }
 .hero-line + .hero-body { margin-top: 14px !important; }
 .hero-body + .hero-sub { margin-top: 22px !important; }
+
+/* Project rows: big title, short description, emphasized key results */
+.row-title { font-size: clamp(24px, 2.7vw, 38px); font-weight: 600; line-height: 1.15; letter-spacing: -0.01em; }
+.row-blurb { max-width: 780px; font-size: 13.5px; line-height: 1.55; }
+.row:hover .row-blurb { max-height: 200px; opacity: 0.92; margin-top: 10px; }
+.row-key { display: flex; flex-wrap: wrap; gap: 8px; max-height: 0; opacity: 0; overflow: hidden; margin-top: 0; transition: max-height 0.32s ease, opacity 0.28s ease, margin-top 0.32s ease; }
+.row:hover .row-key { max-height: 120px; opacity: 1; margin-top: 14px; }
+.row-key .k { display: inline-flex; align-items: baseline; gap: 8px; background: var(--cream); color: var(--red-deep); padding: 7px 14px; font-size: 12.5px; font-weight: 500; }
+.row-key .k b { font-size: 19px; font-weight: 700; letter-spacing: -0.01em; color: var(--red); }
+@media (hover: none) {
+  .row-blurb { max-height: none; opacity: 0.9; margin-top: 10px; }
+  .row-key { max-height: none; opacity: 1; margin-top: 12px; }
+}
