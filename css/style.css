@@ -612,3 +612,9 @@ img, video { max-width: 100%; }
 .cs-key .k::before { background: var(--c); }
 @media (max-width: 600px) { .cs-svg text { font-size: 15px; } }
 .cs-bar i.alt { background: rgba(192,43,49,.38); }
+
+/* hero copy under the portrait */
+.hero-copy { max-width: 820px; }
+.hero-body { margin-top: 12px !important; font-size: clamp(13.5px, 1.2vw, 15px); line-height: 1.55; color: var(--text); }
+.hero-line + .hero-body { margin-top: 14px !important; }
+.hero-body + .hero-sub { margin-top: 22px !important; }
