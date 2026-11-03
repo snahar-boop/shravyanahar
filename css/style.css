@@ -641,4 +641,5 @@ img, video { max-width: 100%; }
 /* About: closing line sits in the right column, a couple of lines under the third paragraph */
 .about-col { min-width: 0; }
 .about-col p { margin-bottom: 0; }
-.about .about-col .closer { margin: 38px 0 0; font-style: italic; font-weight: 600; }
+.about .about-col .closer { margin: 66px 0 0; font-style: italic; font-weight: 400; }
+.about .about-col .closer em { font-weight: 400; }
