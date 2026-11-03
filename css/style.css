@@ -526,3 +526,5 @@ img, video { max-width: 100%; }
 /* Case-study page title: same size as the job headings on the landing page */
 .cs-title { font-size: clamp(22px, 2.6vw, 34px); line-height: 1.2; letter-spacing: 0; }
 @media (max-width: 700px) { .cs-title { font-size: clamp(22px, 6vw, 26px); } }
+.cs-title { font-size: clamp(17px, 1.7vw, 22px); font-weight: 600; }
+@media (max-width: 700px) { .cs-title { font-size: 17px; } }
