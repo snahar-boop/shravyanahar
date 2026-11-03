@@ -620,7 +620,7 @@ img, video { max-width: 100%; }
 .hero-body + .hero-sub { margin-top: 22px !important; }
 
 /* Project rows: big title, short description, emphasized key results */
-.row-title { font-size: clamp(24px, 2.7vw, 38px); font-weight: 600; line-height: 1.15; letter-spacing: -0.01em; }
+.row-title { font-size: 20px; font-weight: 500; letter-spacing: 0; }
 .row-blurb { max-width: 780px; font-size: 13.5px; line-height: 1.55; }
 .row:hover .row-blurb { max-height: 200px; opacity: 0.92; margin-top: 10px; }
 .row-key { display: flex; flex-wrap: wrap; gap: 8px; max-height: 0; opacity: 0; overflow: hidden; margin-top: 0; transition: max-height 0.32s ease, opacity 0.28s ease, margin-top 0.32s ease; }
