@@ -631,3 +631,9 @@ img, video { max-width: 100%; }
   .row-blurb { max-height: none; opacity: 0.9; margin-top: 10px; }
   .row-key { max-height: none; opacity: 1; margin-top: 12px; }
 }
+
+/* hero: keep the signature's tail clear of the headline and avoid an orphaned last word */
+.hero-copy { max-width: 980px; padding-top: 72px; }
+.hero-line { text-wrap: balance; }
+.hero-body { text-wrap: balance; }
+@media (max-width: 700px) { .hero-copy { padding-top: 40px; } }
